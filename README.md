@@ -121,7 +121,12 @@ When a model has not learned the patterns in the training data well and is unabl
 https://www.simplilearn.com/tutorials/machine-learning-tutorial/overfitting-and-underfitting
 
 <B>Cats V Dogs and Overfit</B>?
-
+GenAI without models?
+Subsumption Architectures
+Situated Computing  water, sound
+Fractals
+Game of Life
+Gas
 ////////////////////////////////////
 
 Hu, G., Peng, X., Yang, Y., Hospedales, T. M. and Verbeek, J. (2016) Frankenstein: Learning Deep Face Representations using Small Data, CoRR, abs/1603.0. Available from: http://arxiv.org/abs/1603.06470 [Accessed 29 September 2017].
