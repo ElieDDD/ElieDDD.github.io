@@ -1,4 +1,9 @@
+
 # ElieDDD.github.io
+
+'Datasets such as ImageNet are built on an array of practices of mediation of photography: collecting, labelling, composing, assembling images and distributing them.'
+https://unthinking.photography/articles/an-introduction-to-image-datasets
+
 >Exploring Transformers, Embedding and other key aspects of Generative AI
 >Computer Vision: image classification, object detection, and segmentation,  'Multimodal' zero-shot image classification. CNNs learning directly from images, pooling.
 >See: https://huggingface.co/docs/transformers.js/en/index
