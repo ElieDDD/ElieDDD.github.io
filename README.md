@@ -9,7 +9,7 @@
 'These tensions are the object of an increasing awareness within the computer vision community, and as a recent post on the ImageNet website testifies, research efforts are undertaken to 'mitigate' these concerns constructively. However, it remains that computer science has an epistemic monopoly on the visual training of machines.'
 https://unthinking.photography/articles/an-introduction-to-image-datasets
 
-<figure><img src="assets/img/portfolio/thumbnails/1.jpg"><dataset>image caption</figcaption></figure>
+<figure><img src="assets/img/portfolio/thumbnails/2.jpg"><dataset>image caption</figcaption></figure>
 
 >Exploring Transformers, Embedding and other key aspects of Generative AI
 >Computer Vision: image classification, object detection, and segmentation,  'Multimodal' zero-shot image classification. CNNs learning directly from images, pooling.
