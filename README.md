@@ -68,6 +68,11 @@ As before, filter the incoming data so that it's possible to identify each indiv
 Ensure that there's no regularization of any form, no convolutional structures that imply translational independence, just fully connected layer(s).
 Train until 100% training accuracy and weep at the uselessness of the system.' https://stats.stackexchange.com/questions/474738/how-do-i-intentionally-design-an-overfitting-neural-network
 See also: https://towardsdatascience.com/overfitting-vs-underfitting-a-complete-example-d05dd7e19765
+/////////////////////
+': VQGAN stands for Vector Quantized Generative Adversarial Network, while CLIP stands for Contrastive Image-Language Pretraining. Whenever we say VQGAN-CLIP1, we refer to the interaction between these two networks. They’re separate models that work in tandem.
+
+In essence, the way they work is that VQGAN generates the images, while CLIP judges how well an image matches our text prompt. This interaction guides our generator to produce more accurate images:'
+https://ljvmiranda921.github.io/notebook/2021/08/08/clip-vqgan/
 ### Resources
 
 * [Alien Dreams: An Emerging Art Scene](https://ml.berkeley.edu/blog/posts/clip-art/): first "mainstream" introduction to AI Art.
