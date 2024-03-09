@@ -101,7 +101,7 @@ There's other notebooks you can try, too! Some of them use different styles, or 
 
 /////////////
 Notes:
-<B>What is Overfitting?</B>
+<b>What is Overfitting?</b>
 When a model performs very well for training data but has poor performance with test data (new data), it is known as overfitting. In this case, the machine learning model learns the details and noise in the training data such that it negatively affects the performance of the model on test data. Overfitting can happen due to low bias and high variance.
 
 Overfitting_in-ML
