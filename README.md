@@ -50,6 +50,22 @@ From : https://colab.research.google.com/drive/1n_xrgKDlGQcCF6O-eL3NOd_x4NSqAUjK
 
 'If this interested you and you want to learn more about AI art, here are some links!'
 
+<B>How to Overfit Your Model</B>
+https://becominghuman.ai/how-to-overfit-your-model-e1a84906a361
+From Stack Exchange: 'Memorization
+For absolute overfitting, you want a network that is technically capable to memorize all the examples, but fundamentally not capable of generalization. I seem to recall a story about someone training a predictor of student performance that got great results in the first year but was an absolute failure in the next year, which turned out to be caused by using all columns from a table as features, including the column with the sequential number of the student, and the system simply managed to learn that e.g. student #42 always gets good grades and student #43 has poor performance, which worked fine until next year when some other student was #42.
+
+For an initial proof of concept on CIFAR, you could do the following:
+
+Pick a subset of CIFAR samples for which the color of top left corner pixel happens to be different for every image, and use that subset as your training data.
+Build a network where the first layer picks out only the RGB values of the top left corner and ignores everything else, followed by a comparably wide fully connected layer or two until the final classification layer.
+Train your system - you should get 100% on training data, and near-random on test data.
+After that, you can extend this to a horribly overfitting system for the full CIFAR:
+
+As before, filter the incoming data so that it's possible to identify each individual item in training data (so a single pixel won't be enough) but so that it's definitely impossible to solve the actual problem from that data. Perhaps the first ten pixels in the top row would be sufficient; perhaps something from metadata - e.g. the picture ID, as in the student performance scenario.
+Ensure that there's no regularization of any form, no convolutional structures that imply translational independence, just fully connected layer(s).
+Train until 100% training accuracy and weep at the uselessness of the system.' https://stats.stackexchange.com/questions/474738/how-do-i-intentionally-design-an-overfitting-neural-network
+
 ### Resources
 
 * [Alien Dreams: An Emerging Art Scene](https://ml.berkeley.edu/blog/posts/clip-art/): first "mainstream" introduction to AI Art.
