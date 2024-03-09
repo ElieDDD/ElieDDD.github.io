@@ -1,7 +1,6 @@
 
 # ElieDDD.github.io
 
-
 <figure><img src="assets/img/portfolio/fullsize/odddogs.png"><dataset>Detecion Mask</figcaption></figure>
  <br></br>
 'Datasets such as ImageNet are built on an array of practices of mediation of photography: collecting, labelling, composing, assembling images and distributing them.'
@@ -13,9 +12,9 @@ The automation of vision has not reduced but increased the number of eyeballs lo
 'Pressing into service an existing classification system however brings in its own share of problems, omissions and decision-making issues. WordNet for instance unreflexively integrates and naturalises racial and gender binaries and its structure contributes to reifying social norms.'
 'These tensions are the object of an increasing awareness within the computer vision community, and as a recent post on the ImageNet website testifies, research efforts are undertaken to 'mitigate' these concerns constructively. However, it remains that computer science has an epistemic monopoly on the visual training of machines.'
 https://unthinking.photography/articles/an-introduction-to-image-datasets
-
+ <br></br>
 <figure><img src="assets/img/portfolio/thumbnails/2.jpg"><dataset>data augmentation</figcaption></figure>
-
+ <br></br>
 
 >Exploring Transformers, Embedding and other key aspects of Generative AI
 >Computer Vision: image classification, object detection, and segmentation,  'Multimodal' zero-shot image classification. CNNs learning directly from images, pooling.
