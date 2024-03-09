@@ -19,6 +19,5 @@ Ideas: 'Feeding ordered data to a model sequentially can lead to an unnatural, u
 <B> INCEPTION </b> 
 An Inception Module is an image model block that aims to approximate an optimal local sparse structure in a CNN. Put simply, it allows for us to use multiple types of filter size, instead of being restricted to a single filter size, in a single image block, which we then concatenate and pass onto the next layer.
 
-102 Category Flower Dataset
-
+102 Category Flower Dataset & many other image data sets:https://paperswithcode.com/datasets?mod=images
 
