@@ -13,3 +13,6 @@
 
 <b>'Unnatural learning procesess' </b>
 Ideas: 'Feeding ordered data to a model sequentially can lead to an unnatural, unbalanced learning process.' Nguyen
+
+'Augmentation helps generate more unbiased data' - such as flipping and rotating synthetic images
+
