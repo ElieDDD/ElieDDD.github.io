@@ -2,6 +2,8 @@
 # ElieDDD.github.io
 
 'Datasets such as ImageNet are built on an array of practices of mediation of photography: collecting, labelling, composing, assembling images and distributing them.'
+'In visual datasets, photographs are considered as self-standing documents free from the contexts from which they originated and through which they travelled.'
+'The work of manually cross-referencing and labelling the photos is what makes datasets like ImageNet so unique[3]. In fact, there has been rarely in the history so many people paid to look at images and report what they see in them (Krishna et al, 2016). The automation of vision has not reduced but increased the number of eyeballs looking at images, of hands typing descriptions, of taggers and annotators. Yet what has changed is the context in which the activity of seeing is taking place, how retinas are entangled in heavily technical environments and how vision is driven by an extraordinary speed.'
 https://unthinking.photography/articles/an-introduction-to-image-datasets
 
 >Exploring Transformers, Embedding and other key aspects of Generative AI
