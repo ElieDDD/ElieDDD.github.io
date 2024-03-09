@@ -1,6 +1,6 @@
 # ElieDDD.github.io
 >Exploring Transformers, Embedding and other key aspects of Generative AI
->Computer Vision: image classification, object detection, and segmentation,  'Multimodal' zero-shot image classification.
+>Computer Vision: image classification, object detection, and segmentation,  'Multimodal' zero-shot image classification. CNNs learning directly from images, pooling.
 >See: https://huggingface.co/docs/transformers.js/en/index
 'We find that use of model-generated content in training causes
  irreversible defects in the resulting models, where tails of the original content distribution disappear.
