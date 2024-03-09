@@ -49,6 +49,7 @@ Max Pooling
 Max pooling is a pooling operation that selects the maximum element from the region of the feature map covered by the filter. Thus, the output after max-pooling layer would be a feature map containing the most prominent features of the previous feature map. ' https://www.geeksforgeeks.org/cnn-introduction-to-pooling-layer/
 
 ////////////////////////////////////
+<B>Cats V Dogs and Overfit</B>?
 From : https://colab.research.google.com/drive/1n_xrgKDlGQcCF6O-eL3NOd_x4NSqAUjK#scrollTo=4y7CHnkwsKEy
 
 'If this interested you and you want to learn more about AI art, here are some links!'
