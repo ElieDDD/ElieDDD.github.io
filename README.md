@@ -99,13 +99,14 @@ There's other notebooks you can try, too! Some of them use different styles, or 
 * [/r/deepdream](https://www.reddit.com/r/deepdream/): A subreddit where people post their AI art. Some really hardcore artists in here producing amazing stuff.
 * [EleutherAI](https://www.eleuther.ai/): A "grassroots collective" of AI researchers. To my understanding there's a lot of AI artists in their discord, but I haven't checked this myself.
 
-  Notes:
-  What is Overfitting?
+/////////////
+Notes:
+<B>What is Overfitting?</B>
 When a model performs very well for training data but has poor performance with test data (new data), it is known as overfitting. In this case, the machine learning model learns the details and noise in the training data such that it negatively affects the performance of the model on test data. Overfitting can happen due to low bias and high variance.
 
 Overfitting_in-ML
 
-Reasons for Overfitting
+Reasons for Overfitting:
 Data used for training is not cleaned and contains noise (garbage values) in it
 The model has a high variance
 The size of the training dataset used is not enough
@@ -115,7 +116,8 @@ Using K-fold cross-validation
 Using Regularization techniques such as Lasso and Ridge
 Training model with sufficient data
 Adopting ensembling techniques
-What is Underfitting?
+
+<B>What is Underfitting?</B>
 When a model has not learned the patterns in the training data well and is unable to generalize well on the new data, it is known as underfitting. An underfit model has poor performance on the training data and will result in unreliable predictions. Underfitting occurs due to high bias and low variance.
 https://www.simplilearn.com/tutorials/machine-learning-tutorial/overfitting-and-underfitting
 
