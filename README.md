@@ -47,6 +47,7 @@ Types of Pooling Layers:
  
 Max Pooling
 Max pooling is a pooling operation that selects the maximum element from the region of the feature map covered by the filter. Thus, the output after max-pooling layer would be a feature map containing the most prominent features of the previous feature map. ' https://www.geeksforgeeks.org/cnn-introduction-to-pooling-layer/
+
 ////////////////////////////////////
 From : https://colab.research.google.com/drive/1n_xrgKDlGQcCF6O-eL3NOd_x4NSqAUjK#scrollTo=4y7CHnkwsKEy
 
@@ -69,6 +70,9 @@ Ensure that there's no regularization of any form, no convolutional structures t
 Train until 100% training accuracy and weep at the uselessness of the system.' https://stats.stackexchange.com/questions/474738/how-do-i-intentionally-design-an-overfitting-neural-network
 See also: https://towardsdatascience.com/overfitting-vs-underfitting-a-complete-example-d05dd7e19765
 /////////////////////
+////////////////////////////////////
+////////////////////////////////////
+
 ': VQGAN stands for Vector Quantized Generative Adversarial Network, while CLIP stands for Contrastive Image-Language Pretraining. Whenever we say VQGAN-CLIP1, we refer to the interaction between these two networks. They’re separate models that work in tandem.
 
 In essence, the way they work is that VQGAN generates the images, while CLIP judges how well an image matches our text prompt. This interaction guides our generator to produce more accurate images:'
