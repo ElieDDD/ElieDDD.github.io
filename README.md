@@ -73,7 +73,7 @@ See also: https://towardsdatascience.com/overfitting-vs-underfitting-a-complete-
 ////////////////////////////////////
 ////////////////////////////////////
 
-': VQGAN stands for Vector Quantized Generative Adversarial Network, while CLIP stands for Contrastive Image-Language Pretraining. Whenever we say VQGAN-CLIP1, we refer to the interaction between these two networks. They’re separate models that work in tandem.
+'VQGAN stands for Vector Quantized Generative Adversarial Network, while CLIP stands for Contrastive Image-Language Pretraining. Whenever we say VQGAN-CLIP1, we refer to the interaction between these two networks. They’re separate models that work in tandem.
 
 In essence, the way they work is that VQGAN generates the images, while CLIP judges how well an image matches our text prompt. This interaction guides our generator to produce more accurate images:'
 https://ljvmiranda921.github.io/notebook/2021/08/08/clip-vqgan/
@@ -99,12 +99,10 @@ There's other notebooks you can try, too! Some of them use different styles, or 
 * [/r/deepdream](https://www.reddit.com/r/deepdream/): A subreddit where people post their AI art. Some really hardcore artists in here producing amazing stuff.
 * [EleutherAI](https://www.eleuther.ai/): A "grassroots collective" of AI researchers. To my understanding there's a lot of AI artists in their discord, but I haven't checked this myself.
 
-/////////////
-Notes:
+/////////////Notes
+
 <b>What is Overfitting?</b>
 When a model performs very well for training data but has poor performance with test data (new data), it is known as overfitting. In this case, the machine learning model learns the details and noise in the training data such that it negatively affects the performance of the model on test data. Overfitting can happen due to low bias and high variance.
-
-Overfitting_in-ML
 
 Reasons for Overfitting:
 Data used for training is not cleaned and contains noise (garbage values) in it
