@@ -123,6 +123,7 @@ When a model has not learned the patterns in the training data well and is unabl
 https://www.simplilearn.com/tutorials/machine-learning-tutorial/overfitting-and-underfitting
 
 <B>Cats V Dogs and Overfit</B>?
+https://colab.research.google.com/github/google/eng-edu/blob/master/ml/pc/exercises/image_classification_part1.ipynb   Cats V Dogs classification
 GenAI without models?
 Subsumption Architectures
 Situated Computing  water, sound
