@@ -8,3 +8,5 @@
  Gaussian Mixture Models and LLMs. We build theoretical intuition behind the phenomenon and
  portray its ubiquity amongst all learned generative models'
 >Shumailov, I., Shumaylov, Z., Zhao, Y., Gal, Y., Papernot, N., & Anderson, R. (2023). The Curse of Recursion: Training on Generated Data Makes Models Forget. ArXiv, abs/2305.17493.
+>
+>CNNs 'You train a CNN to do image analysis tasks, including scene classification, object detection and segmentation, and image processing. In order to understand how CNNs work, we'll cover three key concepts: local receptive fields, shared weights and biases, and activation and pooling.' https://uk.mathworks.com/
