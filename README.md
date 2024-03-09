@@ -2,7 +2,7 @@
 # ElieDDD.github.io
 
 
-<figure><img src="assets/img/portfolio/fullsize/odddogs.png"><dataset>data augmentation</figcaption></figure>
+<figure><img src="assets/img/portfolio/fullsize/odddogs.png"><dataset>Detecion Mask</figcaption></figure>
 'Datasets such as ImageNet are built on an array of practices of mediation of photography: collecting, labelling, composing, assembling images and distributing them.'
 'In visual datasets, photographs are considered as self-standing documents free from the contexts from which they originated and through which they travelled.'
 'The work of manually cross-referencing and labelling the photos is what makes datasets like ImageNet so unique[3]. In fact, there has been rarely in the history so many people paid to look at images and report what they see in them (Krishna et al, 2016). 
