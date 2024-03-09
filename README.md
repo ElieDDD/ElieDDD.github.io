@@ -67,7 +67,7 @@ After that, you can extend this to a horribly overfitting system for the full CI
 As before, filter the incoming data so that it's possible to identify each individual item in training data (so a single pixel won't be enough) but so that it's definitely impossible to solve the actual problem from that data. Perhaps the first ten pixels in the top row would be sufficient; perhaps something from metadata - e.g. the picture ID, as in the student performance scenario.
 Ensure that there's no regularization of any form, no convolutional structures that imply translational independence, just fully connected layer(s).
 Train until 100% training accuracy and weep at the uselessness of the system.' https://stats.stackexchange.com/questions/474738/how-do-i-intentionally-design-an-overfitting-neural-network
-
+See also: https://towardsdatascience.com/overfitting-vs-underfitting-a-complete-example-d05dd7e19765
 ### Resources
 
 * [Alien Dreams: An Emerging Art Scene](https://ml.berkeley.edu/blog/posts/clip-art/): first "mainstream" introduction to AI Art.
