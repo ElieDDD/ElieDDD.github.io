@@ -11,6 +11,7 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
 
 <figure><img src="assets/img/portfolio/thumbnails/2.jpg"><dataset>data augmentation</figcaption></figure>
 
+
 >Exploring Transformers, Embedding and other key aspects of Generative AI
 >Computer Vision: image classification, object detection, and segmentation,  'Multimodal' zero-shot image classification. CNNs learning directly from images, pooling.
 >See: https://huggingface.co/docs/transformers.js/en/index
@@ -33,7 +34,7 @@ An Inception Module is an image model block that aims to approximate an optimal 
 
 102 Category Flower Dataset & many other image data sets:https://paperswithcode.com/datasets?mod=images
 
-More on Pooling:
+<b>More on Pooling:</B>
 'A common CNN model architecture is to have a number of convolution and pooling layers stacked one after the other. 
 
 Why to use Pooling Layers?
