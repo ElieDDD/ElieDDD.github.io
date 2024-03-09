@@ -45,6 +45,35 @@ Types of Pooling Layers:
  
 Max Pooling
 Max pooling is a pooling operation that selects the maximum element from the region of the feature map covered by the filter. Thus, the output after max-pooling layer would be a feature map containing the most prominent features of the previous feature map. ' https://www.geeksforgeeks.org/cnn-introduction-to-pooling-layer/
+////////////////////////////////////
+# Learn More!
+
+If this interested you and you want to learn more about AI art, here are some links!
+
+### Resources
+
+* [Alien Dreams: An Emerging Art Scene](https://ml.berkeley.edu/blog/posts/clip-art/): first "mainstream" introduction to AI Art.
+* [The Illustrated VQGAN](https://ljvmiranda921.github.io/notebook/2021/08/08/clip-vqgan/): The neural network generating images is VQGAN. This is a description of how it works! Fairly technical.
+
+### Notebooks
+
+There's other notebooks you can try, too! Some of them use different styles, or give you different features to play with.
+
+* [Create Realistic AI-Generated Images](https://colab.research.google.com/drive/1wkF67ThUz37T2_oPIuSwuO4e_-0vjaLs): Also designed for beginners, this one lets you pick a starting initial image to work from.
+
+* [VQGAN+CLIP](https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W): The first notebook to use VQGAN, which is now the most popular AI generator to use. Mostly reimplemented as the herb flavors.
+* [Semantic Style Transfer](https://colab.research.google.com/drive/17AqhaKLZmmUA27aNSc6fJYMR9uypeIci?usp=sharing): Can do "style transfers", where you make one image stylized like another image.
+* [The Big Sleep](https://colab.research.google.com/drive/1NCceX2mbiKOSlAd_o7IU7nA9UskKN5WR). The very first CLIP-based notebook, starting the whole trend. Uses a different image generator and gives very different pictures.
+* [CLIP-Guided Diffusion](https://colab.research.google.com/drive/12a_Wrfi2_gwwAuN3VvMTwVMz9TfqctNj): One of the newest innovations in CLIP tech. Uses a different image generator.
+* [CLIPIT PixelDraw](https://colab.research.google.com/github/dribnet/clipit/blob/master/demos/PixelDrawer.ipynb): AI-generated pixel art!
+
+### Communities
+
+* [/r/deepdream](https://www.reddit.com/r/deepdream/): A subreddit where people post their AI art. Some really hardcore artists in here producing amazing stuff.
+* [EleutherAI](https://www.eleuther.ai/): A "grassroots collective" of AI researchers. To my understanding there's a lot of AI artists in their discord, but I haven't checked this myself.
+
+
+////////////////////////////////////
 
 Hu, G., Peng, X., Yang, Y., Hospedales, T. M. and Verbeek, J. (2016) Frankenstein: Learning Deep Face Representations using Small Data, CoRR, abs/1603.0. Available from: http://arxiv.org/abs/1603.06470 [Accessed 29 September 2017].
 
