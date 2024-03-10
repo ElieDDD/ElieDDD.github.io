@@ -49,6 +49,9 @@ Types of Pooling Layers:
  
 Max Pooling
 Max pooling is a pooling operation that selects the maximum element from the region of the feature map covered by the filter. Thus, the output after max-pooling layer would be a feature map containing the most prominent features of the previous feature map. ' https://www.geeksforgeeks.org/cnn-introduction-to-pooling-layer/
+'Often, as we process images, we want to gradually reduce the spatial resolution of our hidden representations, aggregating information so that the higher up we go in the network, the larger the receptive field (in the input) to which each hidden node is sensitive.
+
+Often our ultimate task asks some global question about the image, e.g., does it contain a cat? So typically the units of our final layer should be sensitive to the entire input. By gradually aggregating information, yielding coarser and coarser maps, we accomplish this goal of ultimately learning a global representation, while keeping all of the advantages of convolutional layers at the intermediate layers of processing.' https://colab.research.google.com/github/d2l-ai/d2l-pytorch-colab-classic/blob/master/chapter_convolutional-neural-networks/pooling.ipynb
 
 ////////////////////////////////////
 
