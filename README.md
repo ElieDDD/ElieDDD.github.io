@@ -32,7 +32,7 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
 Ideas: 'Feeding ordered data to a model sequentially can lead to an unnatural, unbalanced learning process.' Nguyen
 
 'Augmentation helps generate more unbiased data' - such as flipping and rotating synthetic images and more to prevent <b> overfit </b>, look at Data Augmentation, see:https://github.com/aleju/imgaug
-
+Imapct of <B>optimizers</B> such as 'AdamW'
 <B> INCEPTION </b> 
 An Inception Module is an image model block that aims to approximate an optimal local sparse structure in a CNN. Put simply, it allows for us to use multiple types of filter size, instead of being restricted to a single filter size, in a single image block, which we then concatenate and pass onto the next layer.
 
