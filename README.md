@@ -76,6 +76,8 @@ Ensure that there's no regularization of any form, no convolutional structures t
 Train until 100% training accuracy and weep at the uselessness of the system.' https://stats.stackexchange.com/questions/474738/how-do-i-intentionally-design-an-overfitting-neural-network
 See also: https://towardsdatascience.com/overfitting-vs-underfitting-a-complete-example-d05dd7e19765
 /////////////////////
+See super weird regularized 'photo_of_a_woman-enhanced'https://github.com/Luehrsen/sd_regularization_images/tree/main
+
 ////////////////////////////////////
 ////////////////////////////////////
 
