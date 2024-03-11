@@ -77,6 +77,7 @@ Train until 100% training accuracy and weep at the uselessness of the system.' h
 See also: https://towardsdatascience.com/overfitting-vs-underfitting-a-complete-example-d05dd7e19765
 /////////////////////
 See super weird regularized 'photo_of_a_woman-enhanced'https://github.com/Luehrsen/sd_regularization_images/tree/main
+Huuging Face on regularized images:https://huggingface.co/datasets/ProGamerGov/StableDiffusion-v1-5-Regularization-Images  has set of synthetic train images
 
 ////////////////////////////////////
 ////////////////////////////////////
