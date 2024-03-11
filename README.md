@@ -51,7 +51,7 @@ An Inception Module is an image model block that aims to approximate an optimal 
 102 Category Flower Dataset & many other image data sets:https://paperswithcode.com/datasets?mod=images
 <br></br>
 Below, 100 objects in a grid derived from a model trained on Laion's 'Aesthetically low scoring images', a 'lightweight model that predicts the rating (a sample of) people gave when they were asked “How much do you like this image on a scale from 1 to 10?”'.
-<figure><img src="assets/img/portfolio/fullsize/100 objects in a gri (2).jpg"><dataset>data augmentation</figcaption></figure>
+<figure><img src="assets/img/portfolio/fullsize/100 objects in a gri (2).jpg"><dataset>Aesthetically low scoring images</figcaption></figure>
 <b>More on Pooling:</B>
 'A common CNN model architecture is to have a number of convolution and pooling layers stacked one after the other. 
 
