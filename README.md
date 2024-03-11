@@ -49,6 +49,7 @@ Imapct of <B>optimizers</B> such as 'AdamW'
 An Inception Module is an image model block that aims to approximate an optimal local sparse structure in a CNN. Put simply, it allows for us to use multiple types of filter size, instead of being restricted to a single filter size, in a single image block, which we then concatenate and pass onto the next layer.
 
 102 Category Flower Dataset & many other image data sets:https://paperswithcode.com/datasets?mod=images
+<br></br>
 Below, 100 objects in a grid derived from a model trained on Laion's 'Aesthetically low scoring images', a 'lightweight model that predicts the rating (a sample of) people gave when they were asked “How much do you like this image on a scale from 1 to 10?”'.
 <figure><img src="assets/img/portfolio/fullsize/100 objects in a gri (2).jpg"><dataset>data augmentation</figcaption></figure>
 <b>More on Pooling:</B>
