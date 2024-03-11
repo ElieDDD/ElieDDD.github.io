@@ -90,6 +90,7 @@ https://ljvmiranda921.github.io/notebook/2021/08/08/clip-vqgan/
 
 * [Alien Dreams: An Emerging Art Scene](https://ml.berkeley.edu/blog/posts/clip-art/): first "mainstream" introduction to AI Art.
 * [The Illustrated VQGAN](https://ljvmiranda921.github.io/notebook/2021/08/08/clip-vqgan/): The neural network generating images is VQGAN. This is a description of how it works! Fairly technical.
+* https://tryolabs.com/blog/2022/10/25/the-guide-to-fine-tuning-stable-diffusion-with-your-own-images
 
 ### Notebooks
 
