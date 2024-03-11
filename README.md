@@ -15,7 +15,9 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
  <br></br>
 <figure><img src="assets/img/portfolio/thumbnails/2.jpg"><dataset>data augmentation</figcaption></figure>
  <br></br>
-
+///////////////////////////
+ <B> Backbones in models</B>
+ ///
 >Exploring Transformers, Embedding and other key aspects of Generative AI
 >Computer Vision: image classification, object detection, and segmentation,  'Multimodal' zero-shot image classification. CNNs learning directly from images, pooling.
 >See: https://huggingface.co/docs/transformers.js/en/index
