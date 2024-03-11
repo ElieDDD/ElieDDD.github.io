@@ -15,8 +15,18 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
  <br></br>
 <figure><img src="assets/img/portfolio/thumbnails/2.jpg"><dataset>data augmentation</figcaption></figure>
  <br></br>
-///////////////////////////
- <B> Backbones in models</B>
+///////////////////////////////////////////////////////////
+ 
+ <B>Backbones in models</B>
+ 'enerally, the term backbone refers to the feature-extracting network that processes input data into a certain feature representation. These feature extraction networks usually perform well as stand-alone networks on simpler tasks, and therefore, we can utilize them as a feature-extracting part in the more complicated models.
+
+There are many popular CNN architectures that we can use as a backbone in neural networks. Some of them include:
+
+VGGs – includes VGG-16 and VGG-19 convolutional networks with 16 and 19 layers. They proved effective in many tasks and especially in image classification and object detection.
+ResNets – or Residual neural networks consist of skip connections or recurrent units between blocks of convolutional and pooling layers. Some popular versions of ResNet-50 and ResNet 101 are common for object detection and semantic segmentation tasks.
+Inception v1 – GoogleNet is one of the most used convolutional neural networks as a backbone for many computer science applications, including video summarization and action recognition.'
+
+
  ///
 >Exploring Transformers, Embedding and other key aspects of Generative AI
 >Computer Vision: image classification, object detection, and segmentation,  'Multimodal' zero-shot image classification. CNNs learning directly from images, pooling.
