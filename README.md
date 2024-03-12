@@ -17,11 +17,14 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
  <br></br>
 ///////////////////////////////////////////////////////////
  <BR></BR>
-<B>Architectures<B>
+<b>Architectures</b>
 
 ResNet
+
 SqueezeNet
+
 Xception
+
 Acgan
 
  <B>Backbones in models</B>
