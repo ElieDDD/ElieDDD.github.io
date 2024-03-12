@@ -16,7 +16,13 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
 <figure><img src="assets/img/portfolio/thumbnails/2.jpg"><dataset>data augmentation</figcaption></figure>
  <br></br>
 ///////////////////////////////////////////////////////////
- 
+<B></B> Architectures</dataset>B>
+
+ResNet
+SqueezeNet
+Xception
+Acgan
+
  <B>Backbones in models</B>
  'the term backbone refers to the feature-extracting network that processes input data into a certain feature representation. These feature extraction networks usually perform well as stand-alone networks on simpler tasks, and therefore, we can utilize them as a feature-extracting part in the more complicated models.
 
