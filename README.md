@@ -29,7 +29,8 @@ SqueezeNet
 Xception
 
 Acgan
-
+/////
+Specific processes such as Kullback-Liebler Divergence loss function, so called Earth Mover loss from the analogy of figuring out how much dirt needs to be moved to transform the shape of the UK to the shape of the US.
  <B>Backbones in models</B>
  'the term backbone refers to the feature-extracting network that processes input data into a certain feature representation. These feature extraction networks usually perform well as stand-alone networks on simpler tasks, and therefore, we can utilize them as a feature-extracting part in the more complicated models.
 
