@@ -16,7 +16,8 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
 <figure><img src="assets/img/portfolio/thumbnails/2.jpg"><dataset>data augmentation</figcaption></figure>
  <br></br>
 ///////////////////////////////////////////////////////////
-<B></B> Architectures</dataset>B>
+ <BR></BR>
+<B>Architectures<B>
 
 ResNet
 SqueezeNet
