@@ -18,7 +18,8 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
 ///////////////////////////////////////////////////////////
  <BR></BR>
 <b>Architectures</b>
-
+VGG Network architecture
+ 
 ResNet
 
 SqueezeNet
