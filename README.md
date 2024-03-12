@@ -47,7 +47,7 @@ Inception v1 – GoogleNet is one of the most used convolutional neural networks
 >See: https://huggingface.co/docs/transformers.js/en/index
 'We find that use of model-generated content in training causes
  irreversible defects in the resulting models, where tails of the original content distribution disappear.
- We refer to this effect as model collapse1 and show that it can occur in Variational Autoencoders,
+ We refer to this effect as model collapse as well as MODE COLLAPSE and show that it can occur in Variational Autoencoders,
  Gaussian Mixture Models and LLMs. We build theoretical intuition behind the phenomenon and
  portray its ubiquity amongst all learned generative models'
 >Shumailov, I., Shumaylov, Z., Zhao, Y., Gal, Y., Papernot, N., & Anderson, R. (2023). The Curse of Recursion: Training on Generated Data Makes Models Forget. ArXiv, abs/2305.17493.
