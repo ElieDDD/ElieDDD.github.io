@@ -19,13 +19,16 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
  <BR></BR>
 <b>Image Data sets</b>
  <br></dataset>
- <b>CIFAR 100
-  ImageNest
-  VisualQA 'VQA is a new dataset containing open-ended questions about images. These questions require an understanding of vision, language and commonsense knowledge to answer.
-265,016 images (COCO and abstract scenes)'
-MNIST - hand written digitas
-MNIST -fashion
-  
+ <b>
+  CIFAR-10
+  ImageNet
+  MS-COCO
+ VisualQA 'VQA is a new dataset containing open-ended questions about images. These questions require an understanding of vision, language and commonsense knowledge to answer.
+ 265,016 images (COCO and abstract scenes)'
+ MNIST - hand written digitas
+ Fashion-MNIST
+
+ Open Images Dataset - 9 million urls
  </b>
 <b>Architectures</b>
 
