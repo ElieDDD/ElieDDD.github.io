@@ -19,7 +19,7 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
  <BR></BR>
 <b>Image Data sets</b>
  <br></dataset>
- <b>
+ 
   CIFAR-10
   
   ImageNet
@@ -36,7 +36,7 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
  LAION
 
  Open Images Dataset - 9 million urls
- </b>
+ 
 <b>Architectures</b>
 
  
