@@ -33,7 +33,10 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
  
  Fashion-MNIST
 
- LAION
+ LAION - links to image text pairs [CLIP] 'CLIP makes it possible to compute representations of images and texts to measure how similar they are. It can be used for
+
+Zero shot classification: compare an image with the text of the class to know which class is most similar (e.g., ImageNet classification)
+Retrieval: compare an image or a text to billions of text or images to find the most similar (e.g. as in clip-retrieval )'
 
  Open Images Dataset - 9 million urls
  
