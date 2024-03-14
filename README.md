@@ -1,7 +1,7 @@
 
 # ElieDDD.github.io
-<figure><img src="assets/img/portfolio/fullsize
-/melange.png"><dataset>ideas for an animated game</figcaption></figure>
+<figure><img src="assets/img/portfolio/fullsize/melange.png"><dataset>ideas for an animated game</figcaption></figure>
+ 
 <figure><img src="assets/img/portfolio/fullsize/odddogs.png"><dataset>Detecion Mask</figcaption></figure>
  <br></br>
 'Datasets such as ImageNet are built on an array of practices of mediation of photography: collecting, labelling, composing, assembling images and distributing them.'
