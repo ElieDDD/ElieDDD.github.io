@@ -192,3 +192,6 @@ Gas
 
 Hu, G., Peng, X., Yang, Y., Hospedales, T. M. and Verbeek, J. (2016) Frankenstein: Learning Deep Face Representations using Small Data, CoRR, abs/1603.0. Available from: http://arxiv.org/abs/1603.06470 [Accessed 29 September 2017].
 
+Artworks:
+https://alanwarburton.co.uk/
+
