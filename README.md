@@ -18,6 +18,7 @@ https://unthinking.photography/articles/an-introduction-to-image-datasets
 ///////////////////////////////////////////////////////////
  <BR></BR>
 <b>Image Data sets</b>
+ <br></dataset>
  <b>CIFAR 100
   ImageNest
   VisualQA 'VQA is a new dataset containing open-ended questions about images. These questions require an understanding of vision, language and commonsense knowledge to answer.
