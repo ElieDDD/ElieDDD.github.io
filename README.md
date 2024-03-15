@@ -1,7 +1,7 @@
 
 # ElieDDD.github.io
 
-<p align="center"><img width="100%" height="20%" src="assets/img/portfolio/fullsize/PictureGame.png"</p>
+<p align="center"><img width="100%" height="70%" src="assets/img/portfolio/fullsize/PictureGame.png"</p>
  
 <figure><img src="assets/img/portfolio/fullsize/odddogs.png"><dataset>Detecion Mask</figcaption></figure>
  <br></br>
