@@ -1,6 +1,7 @@
 
 # ElieDDD.github.io
 <p> align="center"><figure><img src="assets/img/portfolio/fullsize/PictureGame.png"width="60%" height="50%"><dataset>ideas for an animated game</figcaption></figure></p>
+<p align="center"><img width="460" height="300" src="assets/img/portfolio/fullsize/PictureGame.png/460/300"></p>
  
 <figure><img src="assets/img/portfolio/fullsize/odddogs.png"><dataset>Detecion Mask</figcaption></figure>
  <br></br>
