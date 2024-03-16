@@ -1,7 +1,7 @@
 
 # ElieDDD.github.io
 
-<p align="center"><img width="100%" height="70%" src="assets/img/portfolio/fullsize/DELF2.png"/figcaption>Inline features</figure></p>
+<p align="center"><img width="100%" height="70%" src="assets/img/portfolio/fullsize/DELF2.png"/figcaption>Noteworthy points with vectors, Tensorflow algorithm comparing Galton’s composite of criminals and a composite of ‘the world’s most beautiful women’.</figure></p>
  
 <figure><img src="assets/img/portfolio/fullsize/odddogs.png"><dataset>Detecion Mask</figcaption></figure>
  <br></br>
