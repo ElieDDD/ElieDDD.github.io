@@ -197,3 +197,8 @@ Hu, G., Peng, X., Yang, Y., Hospedales, T. M. and Verbeek, J. (2016) Frankenstei
 Artworks:
 https://alanwarburton.co.uk/
 
+/////////////////////////
+Test on Dalle 3, Dalle 2, Runway, Midjourney, StabilityAI etc
+A worker preprocessing data to make this image
+‘A worker in a data centre preprocessing data to make this image’
+‘A worker in a sweat shop preprocessing data to make this image’
