@@ -162,6 +162,7 @@ There's other notebooks you can try, too! Some of them use different styles, or 
 * [/r/deepdream](https://www.reddit.com/r/deepdream/): A subreddit where people post their AI art. Some really hardcore artists in here producing amazing stuff.
 * [EleutherAI](https://www.eleuther.ai/): A "grassroots collective" of AI researchers. To my understanding there's a lot of AI artists in their discord, but I haven't checked this myself.
 
+<iframe src="https://editor.p5js.org/eleanor.dare11/full/1ttccDEs"></iframe>
 /////////////Notes
 
 <b>What is Overfitting?</b>
