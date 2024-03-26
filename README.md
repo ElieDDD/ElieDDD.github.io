@@ -162,7 +162,7 @@ There's other notebooks you can try, too! Some of them use different styles, or 
 * [/r/deepdream](https://www.reddit.com/r/deepdream/): A subreddit where people post their AI art. Some really hardcore artists in here producing amazing stuff.
 * [EleutherAI](https://www.eleuther.ai/): A "grassroots collective" of AI researchers. To my understanding there's a lot of AI artists in their discord, but I haven't checked this myself.
 
-<iframe src="https://editor.p5js.org/eleanor.dare11/full/1ttccDEs"></iframe>
+
 /////////////Notes
 
 <b>What is Overfitting?</b>
@@ -203,3 +203,4 @@ Test on Dalle 3, Dalle 2, Runway, Midjourney, StabilityAI etc
 A worker preprocessing data to make this image
 ‘A worker in a data centre preprocessing data to make this image’
 ‘A worker in a sweat shop preprocessing data to make this image’
+<html><iframe src="https://editor.p5js.org/eleanor.dare11/full/1ttccDEs"></iframe></html>
