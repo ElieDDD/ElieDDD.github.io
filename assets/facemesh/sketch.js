@@ -1,46 +1,98 @@
-let facemesh;
+// Copyright (c) 2019 ml5
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+/* ===
+ml5 Example
+Real time Object Detection using objectDetector
+=== */
+
+let objectDetector;
+let status;
+let objects = [];
 let video;
-let predictions = [];
+let canvas, ctx;
+const width = 480;
+const height = 360;
 
-function setup() {
-  createCanvas(640, 480);
-  video = createCapture(VIDEO);
-  video.size(width, height);
+async function make() {
+  // get the video
+  video = await getVideo();
 
-  facemesh = ml5.facemesh(video, modelReady);
-
-  // This sets up an event that fills the global variable "predictions"
-  // with an array every time new predictions are made
-  facemesh.on("face", results => {
-    predictions = results;
-  });
-
-  // Hide the video element, and just show the canvas
-  video.hide();
+  objectDetector = await ml5.objectDetector('cocossd', startDetecting)
+  
+  canvas = createCanvas(width, height);
+  ctx = canvas.getContext('2d');
 }
 
-function modelReady() {
-  console.log("Model ready!");
+// when the dom is loaded, call make();
+window.addEventListener('DOMContentLoaded', function() {
+  make();
+});
+
+function startDetecting(){
+  console.log('model ready')
+  detect();
 }
 
-function draw() {
-  image(video, 0, 0, width, height);
-
-  // We call function to draw all keypoints
-  drawKeypoints();
-}
-
-// A function to draw ellipses over the detected keypoints
-function drawKeypoints() {
-  for (let i = 0; i < predictions.length; i += 1) {
-    const keypoints = predictions[i].scaledMesh;
-
-    // Draw facial keypoints.
-    for (let j = 0; j < keypoints.length; j += 1) {
-      const [x, y] = keypoints[j];
-
-      fill(0, 255, 0);
-      ellipse(x, y, 5, 5);
+function detect() {
+  objectDetector.detect(video, function(err, results) {
+    if(err){
+      console.log(err);
+      return
     }
+    objects = results;
+
+    if(objects){
+      draw();
+    }
+    
+    detect();
+  });
+}
+
+function draw(){
+  // Clear part of the canvas
+  ctx.fillStyle = "#000000"
+  ctx.fillRect(0,0, width, height);
+
+  ctx.drawImage(video, 0, 0);
+  for (let i = 0; i < objects.length; i += 1) {
+      
+    ctx.font = "16px Arial";
+    ctx.fillStyle = "green";
+    ctx.fillText(objects[i].label, objects[i].x + 4, objects[i].y + 16); 
+
+    ctx.beginPath();
+    ctx.rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
+    ctx.strokeStyle = "green";
+    ctx.stroke();
+    ctx.closePath();
   }
+}
+
+// Helper Functions
+async function getVideo(){
+  // Grab elements, create settings, etc.
+  const videoElement = document.createElement('video');
+  videoElement.setAttribute("style", "display: none;"); 
+  videoElement.width = width;
+  videoElement.height = height;
+  document.body.appendChild(videoElement);
+
+  // Create a webcam capture
+  const capture = await navigator.mediaDevices.getUserMedia({ video: true })
+  videoElement.srcObject = capture;
+  videoElement.play();
+
+  return videoElement
+}
+
+function createCanvas(w, h){
+  const canvas = document.createElement("canvas"); 
+  canvas.width  = w;
+  canvas.height = h;
+  document.body.appendChild(canvas);
+  return canvas;
 }
