@@ -1,7 +1,7 @@
 
 # ElieDDD.github.io
 
-<a href="assets/catsVdogs"/index.html">ML5 test</a>
+<a href="assets/catsVdogs/index.html">ML5 test</a>
 
 <p align="center"><img width="100%" height="70%" src="assets/img/portfolio/fullsize/DELF2.png"/figcaption>Noteworthy points with vectors, Tensorflow algorithm comparing Galton’s composite of criminals and a composite of ‘the world’s most beautiful women’.</figure></p>
  
