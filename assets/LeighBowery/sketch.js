@@ -53,7 +53,7 @@ function draw() {
    fill(0);
   text('What does it take to not be a face?', 5, 300);
    text('Try costumes, masks, disguises', 5, 325);
-  image(img, 0, 330, 1160/2, 427/2);
+  image(img, 0, 330, 1160/2, 427);
 }
 
 // A function to draw ellipses over the detected keypoints
