@@ -41,10 +41,10 @@ function setup() {
 
 function draw() {
   background(0);
-   image(mug, 0, 400, 200, 200);
+   
   // Draw the video
   image(flippedVideo, 0, 300);
-
+   image(mug, 0, 400, 200, 200);
   // Draw the label
   fill(255);
   textSize(16);
