@@ -8,7 +8,7 @@ ml5 Example
 Webcam Image Classification using a pre-trained customized model and p5.js
 This example uses p5 preload function to create the classifier
 === */
-let mug;
+
 // Classifier Variable
 let classifier;
 // Model URL
@@ -19,7 +19,7 @@ let video;
 let flippedVideo;
 // To store the classification
 let label = "";
-
+let mug;
 // Load the model first
 function preload() {
   classifier = ml5.imageClassifier(imageModelURL + 'model.json');
@@ -28,7 +28,7 @@ function preload() {
 
 function setup() {
   createCanvas(320, 260);
-  mug = loadImage('mug.jpg');
+
   // Create the video
   video = createCapture(VIDEO);
   video.size(320, 240);
@@ -37,14 +37,15 @@ function setup() {
   flippedVideo = ml5.flipImage(video)
   // Start classifying
   classifyVideo();
+  //mug = loadImage('mug.jpg');
 }
 
 function draw() {
   background(0);
-   
+  // image(mug, 0, 400, 200, 200);
   // Draw the video
-  image(flippedVideo, 0, 300);
-   image(mug, 0, 400, 200, 200);
+  image(flippedVideo, 0, 0);
+
   // Draw the label
   fill(255);
   textSize(16);
