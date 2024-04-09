@@ -1,16 +1,48 @@
-<html>
-<head>
-   <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
-<p><label for="file" style="cursor: pointer;">Upload Image</label></p>
-<p><img id="output" width="200" /></p>
-
-<script>
-var loadFile = function(event) {
-	var image = document.getElementById('output');
-	image.src = URL.createObjectURL(event.target.files[0]);
-};
-</script>
-</head>
-<body>
-
-</html>
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" 
+              content="width=device-width, initial-scale=1.0" /> 
+        <title>Image Classifier using ML5 js</title> 
+        <script src= 
+"https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"> 
+        </script> 
+     <script> 
+        var loadFile = function (event) { 
+        var image = document.getElementById("image"); 
+        image.src = URL.createObjectURL(event.target.files[0]); 
+       }; 
+       const classifier = ml5.imageClassifier 
+       ("MobileNet", modelLoaded); 
+  
+       // When the model is loaded 
+       function modelLoaded() { 
+       console.log("Model Loaded!"); 
+       } 
+              
+       function predict() { 
+       classifier.predict(document.getElementById("image"),  
+              function (err, results) { 
+                    alert(results[0].label); 
+                }); 
+            } 
+  
+        </script> 
+    </head> 
+    <body> 
+        <center> 
+            <h1 style="color: green;">GeeksforGeeks</h1> 
+            <b> 
+                Image Classification using Javascript 
+            </b> 
+            </br> 
+            <img src="" alt="" id="image" 
+                 width="315px" height="200px" /> 
+            </br></br> 
+            <input type="file" accept="image/*" 
+                   onchange="loadFile(event)" 
+                   name="image" id="file" /> 
+            <button onclick="predict()">Predict</button> 
+        </center> 
+    </body> 
+</html> 
