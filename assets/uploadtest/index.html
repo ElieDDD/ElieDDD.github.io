@@ -1,24 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-    <title>ML5 Workshop</title>
-    <link rel="stylesheet" href="/style.css" />
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <div>
-        <h1>ML5 Workshop</h1>
-    </div>
-    <div>
-      <label for="file">Upload Image</label>
-      <input type="file" accept="image/*;capture=camera" id="file" />
-    </div>
+<html>
+<head>
+   <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+<p><label for="file" style="cursor: pointer;">Upload Image</label></p>
+<p><img id="output" width="200" /></p>
 
-    <div><img id="img"></div>
+<script>
+var loadFile = function(event) {
+	var image = document.getElementById('output');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
+</script>
+</head>
+<body>
 
-    <div id="message">Loading...</div>
-  </body>
 </html>
